@@ -30,9 +30,12 @@ function App() {
       setTimeout(() => {
         setIsDisabled(false);
       }, 2000);
-    } else if (nome.length > 3 && cor.length > 6) {
+    } 
+
+    if (nome.length > 3 && cor.length > 6) {
       setBackgroundColor("#202020");
       setBorderColor("#202020");
+
       setListColor((prevColorList) => [...prevColorList, colorsList]);
     }
   };
