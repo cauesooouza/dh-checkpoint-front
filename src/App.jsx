@@ -35,7 +35,7 @@ function App() {
     if (nome.length > 3 && cor.length > 6) {
       setBackgroundColor("#202020");
       setBorderColor("#202020");
-      alert("ok")
+
       setListColor((prevColorList) => [...prevColorList, colorsList]);
     }
   };
